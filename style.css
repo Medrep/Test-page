@@ -1,115 +1,71 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,400italic,700,700italic&display=swap');
-
-/* General Reset */
-html, body {
-    width: 100%;
-    height: 100%;
-    padding: 0;
-    margin: 0;
-    background: #EDEDED;
-    font-family: 'Roboto', sans-serif;
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f5f5f5;
     color: #333;
-    line-height: 1.7em;
-    overflow-x: hidden;
-    -webkit-text-size-adjust: none;
-}
-
-/* Centering the entire page content */
-#wrapper {
+    margin: 0;
+    padding: 40px 20px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 30px 20px;
+    justify-content: center;
 }
 
-/* Inner content container with max width */
-.inner {
+.container {
     max-width: 600px;
     width: 100%;
     background: #fff;
-    padding: 40px;
-    box-shadow: 0 1.5em 3em rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
     border-radius: 8px;
+    padding: 30px;
     text-align: center;
 }
 
-/* Avatar image */
 .avatar {
     width: 120px;
     height: 120px;
     border-radius: 50%;
     object-fit: cover;
-    margin-bottom: 20px;
 }
 
-/* Heading styles */
 h1 {
-    font-size: 28px;
-    font-weight: bold;
-    color: #000;
+    font-size: 26px;
+    font-weight: 600;
+    margin-top: 20px;
     margin-bottom: 10px;
 }
 
-/* Fixing "Helping You Find & Manage Top Remote Developers" color */
-.tagline {
+.bio {
     font-size: 18px;
-    color: #000 !important;
-    font-weight: 500;
+    color: #666;
     margin-bottom: 20px;
 }
 
-/* Section headings */
-h2 {
-    font-size: 22px;
-    font-weight: bold;
-    margin-top: 30px;
-    color: #000;
-}
-
-/* Small blue dividers under headings */
-.divider {
-    width: 50px;
-    height: 2px;
-    background-color: #1DA1F2;
-    margin: 10px auto 20px auto;
-}
-
-/* Paragraph & list styling */
-p, ul {
-    max-width: 600px;
-    margin: 0 auto;
-    text-align: center;
+p {
     font-size: 16px;
-    color: #444;
+    line-height: 1.5;
+    margin-bottom: 16px;
 }
 
-/* List styles */
 .expertise {
-    list-style: none;
-    padding: 0;
+    text-align: left;
+    margin: 20px auto;
+    max-width: 400px;
 }
 
 .expertise li {
     margin-bottom: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
-/* Social links */
 .social-links {
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .social-links a {
-    font-size: 16px;
-    color: #1DA1F2;
     text-decoration: none;
-    font-weight: bold;
+    color: #5b9bf3;
+    font-weight: 600;
     margin: 0 8px;
 }
 
 .social-links a:hover {
-    color: #0056b3;
+    text-decoration: underline;
 }
+
