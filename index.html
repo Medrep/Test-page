@@ -10,70 +10,104 @@
     <meta property="og:title" content="Alex Kucheruk">
     <meta property="og:type" content="website">
     <meta property="og:description" content="Alex Kucheruk">
-    <link rel="canonical" href="https://alexkucheruk.carrd.co/">
-    <link rel="stylesheet" href="./Alex_Kucheruk_files/css2">
+    <meta property="og:image" content="https://alexkucheruk.carrd.co/assets/images/card.jpg?v=9ea78a37">
+    <meta property="og:url" content="https://alexkucheruk.carrd.co">
+    <meta property="twitter:card" content="summary_large_image">
     <style>
-        /* Add necessary inline styles here */
+        /* Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Source Sans Pro', sans-serif;
+            background-color: #FCFCFC;
+            color: #333;
+            line-height: 1.75;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        #wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        #main {
+            max-width: 700px;
+            width: 100%;
+            background: #fff;
+            padding: 40px;
+            box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            text-align: left;
+        }
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #111;
+            margin-bottom: 10px;
+        }
+        h2 {
+            font-size: 1.75rem;
+            font-weight: 600;
+            color: #222;
+            margin-top: 30px;
+        }
+        p {
+            font-size: 1.1rem;
+            color: #444;
+            margin-bottom: 15px;
+        }
+        ul {
+            list-style: none;
+            padding-left: 20px;
+        }
+        ul li::before {
+            content: '\2022';
+            color: #007BFF;
+            font-size: 1.5rem;
+            margin-right: 10px;
+        }
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .icons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
     </style>
 </head>
-<body class="is-ready">
+<body>
     <div id="wrapper">
         <div id="main">
-            <div class="inner">
-                <div id="image02" class="style1 image full" data-position="center">
-                    <span class="frame">
-                        <img src="./Alex_Kucheruk_files/image02.jpg" alt="">
-                    </span>
-                </div>
-                <div id="container02" class="style2 container default full">
-                    <div class="wrapper">
-                        <div class="inner">
-                            <h1 id="text03" class="style3">Alex Kucheruk</h1>
-                            <p id="text04" class="style4">Helping You Find & Manage Top Remote Developers</p>
-                        </div>
-                    </div>
-                </div>
-                <h2 id="text09" class="style2">Who Am I?</h2>
-                <hr id="divider02" class="style1">
-                <p id="text10" class="style1">
-                    I'm Alex, an IT consultant with over a decade of experience in software development outsourcing and developer leasing across Europe...
-                </p>
-                <hr id="divider04" class="style2 full">
-                <h2 id="text07" class="style2">How I Can Help You</h2>
-                <hr id="divider03" class="style1">
-                <p id="text08" class="style1">I’ve worked on both sides of outsourcing - hiring developers and managing remote teams. Here’s what I can help with:</p>
-                <ul id="list01" class="style1 list">
-                    <li><p>Finding & vetting reliable software development partners</p></li>
-                    <li><p>Optimizing your software outsourcing strategy</p></li>
-                    <li><p>Navigating the European tech talent market</p></li>
-                    <li><p>Avoiding common pitfalls in remote hiring & management</p></li>
-                </ul>
-                <hr id="divider05" class="style2 full">
-                <h2 id="text06" class="style2">Why Am I Offering Free Consulting?</h2>
-                <hr id="divider01" class="style1">
-                <p id="text05" class="style1">
-                    I believe good business starts with good conversations...
-                </p>
-                <ul id="icons01" class="style1 icons">
-                    <li>
-                        <a class="n01" href="https://www.linkedin.com/in/alexkucheruk/" role="button">
-                            <span class="label">LinkedIn</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a class="n02" href="tel:0000000000" role="button">
-                            <span class="label">Phone</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a class="n03" href="mailto:user@domain.ext" role="button">
-                            <span class="label">Email</span>
-                        </a>
-                    </li>
-                </ul>
-                <div id="credits" class="icc-credits">
-                    <span></span>
-                </div>
+            <h1>Alex Kucheruk</h1>
+            <p>Helping You Find & Manage Top Remote Developers</p>
+            <h2>Who Am I?</h2>
+            <p>I'm Alex, an IT consultant with over a decade of experience in software development outsourcing and developer leasing across Europe...</p>
+            <h2>How I Can Help You</h2>
+            <ul>
+                <li>Finding & vetting reliable software development partners</li>
+                <li>Optimizing your software outsourcing strategy</li>
+                <li>Navigating the European tech talent market</li>
+                <li>Avoiding common pitfalls in remote hiring & management</li>
+            </ul>
+            <h2>Why Am I Offering Free Consulting?</h2>
+            <p>I believe good business starts with good conversations...</p>
+            <div class="icons">
+                <a href="https://www.linkedin.com/in/alexkucheruk/">LinkedIn</a>
+                <a href="tel:0000000000">Phone</a>
+                <a href="mailto:user@domain.ext">Email</a>
             </div>
         </div>
     </div>
